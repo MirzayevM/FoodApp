@@ -14,6 +14,12 @@
 		967B9E45288BE5DF0082E757 /* FoodAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967B9E44288BE5DF0082E757 /* FoodAppTests.swift */; };
 		967B9E4F288BE5DF0082E757 /* FoodAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967B9E4E288BE5DF0082E757 /* FoodAppUITests.swift */; };
 		967B9E51288BE5DF0082E757 /* FoodAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967B9E50288BE5DF0082E757 /* FoodAppUITestsLaunchTests.swift */; };
+		967B9E60288BEA6E0082E757 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967B9E5F288BEA6E0082E757 /* Home.swift */; };
+		967B9E62288C294D0082E757 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967B9E61288C294D0082E757 /* Category.swift */; };
+		967B9E64288C4A970082E757 /* Popular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967B9E63288C4A970082E757 /* Popular.swift */; };
+		967B9E66288C4C260082E757 /* PopularItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967B9E65288C4C260082E757 /* PopularItemView.swift */; };
+		967B9E68288C56C70082E757 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967B9E67288C56C70082E757 /* LandingPage.swift */; };
+		967B9E6A288C59570082E757 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967B9E69288C59570082E757 /* CustomTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		967B9E4A288BE5DF0082E757 /* FoodAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		967B9E4E288BE5DF0082E757 /* FoodAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAppUITests.swift; sourceTree = "<group>"; };
 		967B9E50288BE5DF0082E757 /* FoodAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		967B9E5F288BEA6E0082E757 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		967B9E61288C294D0082E757 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		967B9E63288C4A970082E757 /* Popular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popular.swift; sourceTree = "<group>"; };
+		967B9E65288C4C260082E757 /* PopularItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularItemView.swift; sourceTree = "<group>"; };
+		967B9E67288C56C70082E757 /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
+		967B9E69288C59570082E757 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +106,8 @@
 		967B9E32288BE5DA0082E757 /* FoodApp */ = {
 			isa = PBXGroup;
 			children = (
+				967B9E5E288BEA600082E757 /* View */,
+				967B9E5D288BEA580082E757 /* Model */,
 				967B9E33288BE5DA0082E757 /* FoodAppApp.swift */,
 				967B9E35288BE5DA0082E757 /* ContentView.swift */,
 				967B9E37288BE5DE0082E757 /* Assets.xcassets */,
@@ -125,6 +139,26 @@
 				967B9E50288BE5DF0082E757 /* FoodAppUITestsLaunchTests.swift */,
 			);
 			path = FoodAppUITests;
+			sourceTree = "<group>";
+		};
+		967B9E5D288BEA580082E757 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				967B9E61288C294D0082E757 /* Category.swift */,
+				967B9E63288C4A970082E757 /* Popular.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		967B9E5E288BEA600082E757 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				967B9E5F288BEA6E0082E757 /* Home.swift */,
+				967B9E65288C4C260082E757 /* PopularItemView.swift */,
+				967B9E67288C56C70082E757 /* LandingPage.swift */,
+				967B9E69288C59570082E757 /* CustomTabBar.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +291,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				967B9E68288C56C70082E757 /* LandingPage.swift in Sources */,
 				967B9E36288BE5DA0082E757 /* ContentView.swift in Sources */,
+				967B9E64288C4A970082E757 /* Popular.swift in Sources */,
+				967B9E60288BEA6E0082E757 /* Home.swift in Sources */,
+				967B9E6A288C59570082E757 /* CustomTabBar.swift in Sources */,
+				967B9E66288C4C260082E757 /* PopularItemView.swift in Sources */,
 				967B9E34288BE5DA0082E757 /* FoodAppApp.swift in Sources */,
+				967B9E62288C294D0082E757 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
